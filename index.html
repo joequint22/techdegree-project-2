@@ -7,20 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <header class="header-container" id="home">
-        <div class="header-wrapper">
+    <header class=" flex header-container" id="home">
+        <div class=" flex header-wrapper">
             <h1 class="header-name">
-                Student Name
+                Joseph Quintiliano
             </h1>
 
             <nav class="nav-container">
-                <ul class="list">
+                <ul class="flex list">
                     <li class="list-item">
                         <a href="#home">Home</a>
                     </li>
@@ -28,12 +29,16 @@
                         <a href="#row">Portfolio</a>
                     </li>
                     <li class="list-item">
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li class="list-item">
                         <a href="#contact">Contact</a>
                     </li>
+                    
                 </ul>
             </nav>
         </div>
-        <div class="header">
+        <div class="flex header">
             <img class="pic" src="images/propic.png" alt="profile-picture">
             <p class="intro">Hi! I'm a front-end developer who loves responsive design and css. I recently finsihed a
                 degree
@@ -42,28 +47,28 @@
     </header>
 
 
-    <div class="row" id="row">
+    <div class="flex row" id="row">
         <h3 class="main-header">
             PORTFOLIO
         </h3>
 
-        <div class="col-container">
+        <div class=" flex col-container">
             <!--Main Content-->
-            <section class="one col">
+            <section class="one flex col">
                 <img src="images/portfolio-1.png" alt="Marketing Image">
                 <h3 class="title">Marketing Page</h3>
                 <p class="text">This project shows the front page og a marketing website meant for a specific business
                     I'm
                     interested in.</p>
             </section>
-            <section class="two col">
+            <section class="two flex col">
                 <img src="images/portfolio-2.png" alt="Search Image">
                 <h3 class="title">Search Page</h3>
                 <p class="text">This project searches through a specofoc database to find information that the user is
                     trying to look up.</p>
 
             </section>
-            <section class="three col">
+            <section class="three flex col">
                 <img src="images/portfolio-3.png" alt="Travel Image">
                 <h3 class="title">Travel Page</h3>
                 <p class="text">This project compares travel times bsaed on different transportation methods and tells
@@ -71,21 +76,21 @@
                     the best one.</p>
 
             </section>
-            <section class="four col">
+            <section class="four flex col">
                 <img src="images/portfolio-4.png" alt="Map Image">
                 <h3 class="title">Map of Favorites Page</h3>
                 <p class="text">This project uses mapping apis too plot points for my favorite spots in the city for a
                     do-it-yourself walking tour.</p>
 
             </section>
-            <section class="five col">
+            <section class="five flex col">
                 <img src="images/portfolio-5.png" alt="Gallery Image">
                 <h3 class="title">Gallery Page</h3>
                 <p class="text">This project shows pictures from a recent trip to the viewer and allows them to easily
                     navigate through photos.</p>
 
             </section>
-            <section class="six col">
+            <section class="six flex col">
                 <img src="images/portfolio-6.png" alt="Calculator Image">
                 <h3 class="title">Calculator Page</h3>
                 <p class="text">Someone can enter in the numbers they want and press the big blue button and get the
@@ -96,8 +101,28 @@
         </div>
     </div>
 
+    <div class="flex skills" id="skills">
+        <h1 class="main-header">Skills</h1>
+            <div class="image-container">
+                <img class="icon" src="images/html5-brands.svg" alt="HTML icon">
+            
 
-    <div class="contact-container" id="contact">
+                <img class="icon" src="images/css3-alt-brands.svg" alt="CSS icon">
+
+
+                <img class="icon" src="images/js-brands.svg" alt="JavaScript icon">
+
+
+                <img class="icon" src="images/angular-brands.svg" alt="Angular icon">
+
+
+                <img class="icon" src="images/react-brands.svg" alt="React icon">
+            </div>
+
+    </div>
+
+
+    <div class="flex contact-container" id="contact">
         <h4 class="contact-header">
             Contact
         </h4>
@@ -105,7 +130,7 @@
             If you're interested in chatting or want more information about what I've been working on, I'd love to hear
             form you
         </p>
-        <div class="info-container">
+        <div class="flex info-container">
             <div class="info">
                 Phone<span class="contact-info"> +1 (111) 555-1234</span>
             </div>
@@ -116,12 +141,14 @@
     </div>
 
 
+
+
     <footer>
         <hr>
-        <div class="footer">
+        <div class="flex footer">
 
             <h4 class="footer-name">
-                Student Name
+                Joseph Quintiliano
             </h4>
 
             <div class="top-btn">
@@ -129,16 +156,20 @@
             </div>
 
             <nav class="nav-footer-container">
-                <ul class="list">
+                <ul class="flex list">
                     <li class="list-item">
-                        <a href="#">Home</a>
+                        <a href="#home">Home</a>
                     </li>
                     <li class="list-item">
-                        <a href="#">Portfolio</a>
+                        <a href="#row">Portfolio</a>
                     </li>
                     <li class="list-item">
-                        <a href="#">Contact</a>
+                        <a href="#skills">Skills</a>
                     </li>
+                    <li class="list-item">
+                        <a href="#contact">Contact</a>
+                    </li>
+                    
                 </ul>
             </nav>
         </div>
